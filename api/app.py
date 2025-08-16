@@ -1,10 +1,10 @@
 from flask import Flask, render_template, request, session, jsonify
 import sudoku
 import secrets
-
+import os
 
 app = Flask(__name__, template_folder="../templates", static_folder="../static")
-app.config["SECRET_KEY"] = secrets.token_hex(16)
+app.config["SECRET_KEY"] = os.environ.get("SECRET_KEY", secrets.token_hex(16))
 
 
 @app.route("/", methods=["GET", "POST"])
