@@ -1,9 +1,10 @@
+![Project Icon](static/Sudoku_Icon.png)
 # About the Project
 The website takes as input an incomplete/unsolved sudoku board and utilizes a recursive backtracking algorithm (implemented in Python) to return the solved sudoku board, which is then rendered onto the webpage (using Flask framework and Jinja).
 
 ## Website Link
 
-[![Website Link](static/Sudoku%20Solver%20Image.png)](https://sudokusolver-six.vercel.app/)
+[![Website Link](static/Sudoku%20Solver%20Image.png)](https://aayan0207-sudokusolver.vercel.app/)
 
 ## Demo
 
@@ -11,6 +12,7 @@ The website takes as input an incomplete/unsolved sudoku board and utilizes a re
 
 ## Recognition:
 
-### Submitted to Coolest Projects 2025 (Web)
+### Submitted to Coolest Projects 2025 (Advanced Programming)
+
 #### Feedback: 
-"Aayan - this is super cool and really showcases your skill! I can't wait to see where you take it next. Very impressive."
+![Project Feedback](static/Sudoku%20Solver%20Feedback.png)
